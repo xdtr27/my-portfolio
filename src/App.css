@@ -1,0 +1,16 @@
+div.all {
+    max-width: 45rem;
+    margin: 0 auto;
+    padding: 0 2rem 0 2rem;
+    
+
+}
+
+@media (max-width: 630px) {
+    html {
+        font-size: 14px;
+    }
+    div.all {
+        position: relative;
+    }
+}

@@ -1,0 +1,22 @@
+.header::before {
+  content: "";
+  background-color: #151515;
+  width: 100%;
+  height: 8rem;
+  position: absolute;
+  left: 0;
+}
+
+.avatarImg {
+  display: flex;
+  transform: translateY(4rem);
+}
+
+
+.avatarImg img {
+  width: 8rem;
+  height: 8rem;
+  background-color: white;
+  border-radius: 999px;
+  object-fit: contain;
+}
